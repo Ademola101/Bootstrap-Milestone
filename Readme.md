@@ -4,7 +4,7 @@
 ![screenshot]()
 
 ## Built With 
-HTML <br> CSS
+HTML <br> CSS <br> Bootstrap
 
 ## Live Demo
 
@@ -34,7 +34,7 @@ HTML <br> CSS
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Ademola101/Bootsrao-Milestone/issues).
+Feel free to check the [issues page](https://github.com/Ademola101/Bootstrap-Milestone/issues).
 
 ## Show your support
 
