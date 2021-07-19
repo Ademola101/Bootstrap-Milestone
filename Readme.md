@@ -1,4 +1,4 @@
-# Replica of the archive The Next Web
+# Replica of the version archive Newsweek
 > A replica of archive version of [Newsweek](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) 
 
 ![screenshot]()
