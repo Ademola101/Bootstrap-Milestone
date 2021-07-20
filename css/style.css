@@ -9,3 +9,11 @@
 .about-font-family {
  font-family: Arial, Helvetica, sans-serif;
 }
+
+a > svg {
+ max-width: 236px;
+ height: 36px;
+ fill: rgb(247, 34, 16);
+ margin-right: 15px;
+ margin-bottom: 12px;
+}
