@@ -8,7 +8,7 @@ HTML <br> CSS
 
 ## Live Demo
 
-[Live Demo link](https://ademola101.github.io/Boostrap-Milestone/)
+[Live Demo link](https://ademola101.github.io/Bootstrap-Milestone/)
 
 ## Authors
 
