@@ -18,11 +18,6 @@ a > svg {
   margin-bottom: 12px;
 }
 
-.space {
-  height: 300px;
-  width: 1000px;
-}
-
 .navbar {
   background: #ff1500;
   flex-wrap: wrap;
@@ -72,4 +67,8 @@ a > svg {
 
 li {
   font-weight: bold;
+}
+
+footer {
+    padding-top: 200px;
 }
