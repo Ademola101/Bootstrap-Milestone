@@ -18,6 +18,11 @@ a > svg {
   margin-bottom: 12px;
 }
 
+.space {
+  height: 300px;
+  width: 1000px;
+}
+
 .navbar {
   background: #ff1500;
 }
