@@ -40,7 +40,7 @@ a > svg {
   background-color: #ffae00;
   border-radius: 22px;
   padding: 2px;
-  left: 5px;
+  right: 5px;
 }
 
 .navbar-toggler-icon {
@@ -49,10 +49,7 @@ a > svg {
 }
 
 .navbar-toggler {
-  font-size: 1.25rem;
-  line-height: 1;
   background-color: transparent;
-  border-radius: 0.25rem;
 }
 
 .navbar-toggler:focus {
@@ -62,7 +59,7 @@ a > svg {
 }
 
 .user {
-  left: 1px;
+  right: 5px;
 }
 
 li {
