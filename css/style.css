@@ -25,6 +25,9 @@ a > svg {
 
 .navbar {
   background: #ff1500;
+  flex-wrap: wrap;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .logo-1 {
@@ -42,7 +45,7 @@ a > svg {
   background-color: #ffae00;
   border-radius: 22px;
   padding: 2px;
-  left: 13px;
+  left: 5px;
 }
 
 .navbar-toggler-icon {
@@ -64,7 +67,7 @@ a > svg {
 }
 
 .user {
-  left: 5px;
+  left: 1px;
 }
 
 li {
