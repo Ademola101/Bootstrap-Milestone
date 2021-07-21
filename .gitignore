@@ -1,4 +1,4 @@
 .hintrc
 node_modules/
 .stylelintrc.json
-/.vscode
+.vscode/
