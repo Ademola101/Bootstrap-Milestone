@@ -1,21 +1,21 @@
 .color-orange {
- color: #f72210;
+  color: #f72210;
 }
 
 .about-font {
- font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 .about-font-family {
- font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a > svg {
- max-width: 236px;
- height: 36px;
- fill: rgb(247, 34, 16);
- margin-right: 15px;
- margin-bottom: 12px;
+  max-width: 236px;
+  height: 36px;
+  fill: rgb(247, 34, 16);
+  margin-right: 15px;
+  margin-bottom: 12px;
 }
 
 .navbar {
@@ -23,8 +23,8 @@ a > svg {
 }
 
 .logo-1 {
-    position: relative;
-    right: 50px;
+  position: relative;
+  right: 50px;
 }
 
 .header-logo {
@@ -53,9 +53,9 @@ a > svg {
 }
 
 .navbar-toggler:focus {
-    text-decoration: none;
-    outline: 0;
-    box-shadow: 0 0 0 0;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0;
 }
 
 .user {
