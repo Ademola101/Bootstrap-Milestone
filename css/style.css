@@ -17,3 +17,51 @@ a > svg {
  margin-right: 15px;
  margin-bottom: 12px;
 }
+
+.navbar {
+  background: #ff1500;
+}
+
+.logo-1 {
+    position: relative;
+    right: 50px;
+}
+
+.header-logo {
+  fill: white;
+  max-width: 150px;
+  padding-left: 10px;
+}
+
+.btn {
+  background-color: #ffae00;
+  border-radius: 22px;
+  padding: 2px;
+  left: 13px;
+}
+
+.navbar-toggler-icon {
+  fill: white;
+  padding: 0.25rem 0.5rem;
+}
+
+.navbar-toggler {
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border-radius: 0.25rem;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.user {
+  left: 5px;
+}
+
+li {
+  font-weight: bold;
+}
