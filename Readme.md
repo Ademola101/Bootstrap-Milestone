@@ -1,14 +1,14 @@
-# Replica of the archive The Next Web
+# Replica of the archive version of Newsweek website
 > A replica of archive version of [Newsweek](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) 
 
 ![screenshot]()
 
 ## Built With 
-HTML <br> CSS
+HTML <br> CSS <br> Bootstrap
 
 ## Live Demo
 
-[Live Demo link]()
+[Live Demo link](https://ademola101.github.io/Bootstrap-Milestone/)
 
 ## Authors
 
@@ -34,7 +34,7 @@ HTML <br> CSS
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Ademola101/Bootsrao-Milestone/issues).
+Feel free to check the [issues page](https://github.com/Ademola101/Bootstrap-Milestone/issues).
 
 ## Show your support
 
