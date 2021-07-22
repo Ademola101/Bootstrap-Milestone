@@ -1,0 +1,129 @@
+.color-orange {
+  color: #f72210;
+}
+
+.about-font {
+  font-size: 0.9rem;
+}
+
+.about-font-family {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a > svg {
+  max-width: 236px;
+  height: 36px;
+  fill: rgb(247, 34, 16);
+  margin-right: 15px;
+  margin-bottom: 12px;
+}
+
+.space {
+  height: 30vh;
+}
+
+.navbar {
+  background: #ff1500;
+  flex-wrap: wrap;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.logo-1 {
+  position: relative;
+  right: 50px;
+}
+
+.header-logo {
+  fill: white;
+  max-width: 150px;
+  padding-left: 10px;
+}
+
+.btn {
+  background-color: #ffae00;
+  border-radius: 22px;
+  padding: 2px;
+  right: 5px;
+}
+
+.navbar-toggler-icon {
+  fill: white;
+  padding: 0.25rem 0.5rem;
+}
+
+.navbar-toggler {
+  background-color: transparent;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+
+.user {
+  right: 5px;
+}
+
+li {
+  font-weight: bold;
+}
+
+.pelcro-login-button {
+  display: none;
+  background-color: #ff1500;
+  color: white;
+  border: 0;
+}
+
+.login {
+  font-weight: bold;
+}
+
+date {
+  display: none;
+  color: white;
+}
+
+.navbar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .pelcro-login-button {
+    display: block;
+    left: 210px;
+  }
+
+  .btn {
+    left: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-toggler {
+    display: none;
+  }
+
+  .pelcro-login-button {
+    left: 220px;
+  }
+
+  .btn {
+    position: relative;
+    left: -10px;
+  }
+
+  date {
+    display: block;
+  }
+
+  .header-logo {
+    left: 100px;
+  }
+
+  .navbar {
+    display: block;
+  }
+}
