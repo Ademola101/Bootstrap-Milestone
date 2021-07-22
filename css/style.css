@@ -49,7 +49,7 @@ a > svg {
   background-color: #ffae00;
   border-radius: 22px;
   padding: 2px;
-  right: 5px;
+  left: 15px;
 }
 
 .navbar-toggler-icon {
@@ -59,6 +59,7 @@ a > svg {
 
 .navbar-toggler {
   background-color: transparent;
+  border: 0;
 }
 
 .navbar-toggler:focus {
@@ -68,7 +69,7 @@ a > svg {
 }
 
 .user {
-  right: 5px;
+  left: 15px;
 }
 
 li {
@@ -92,14 +93,33 @@ li {
   display: none;
 }
 
-@media (min-width: 768px) {
-  .pelcro-login-button {
-    display: block;
-    left: 210px;
+@media (max-width: 374px) {
+  .user {
+    left: -10px;
   }
 
   .btn {
-    left: 100px;
+    left: -30px;
+  }
+
+  .navbar {
+    width: 120%;
+  }
+
+  .navbar-toggler {
+    position: relative;
+    right: 65px;
+  }
+}
+
+@media (min-width: 768px) {
+  .pelcro-login-button {
+    display: block;
+    left: 240px;
+  }
+
+  .btn {
+    left: 120px;
   }
 }
 
@@ -127,5 +147,9 @@ li {
 
   .bar-1 {
     display: block;
+  }
+
+  .search {
+    width: 10%;
   }
 }
