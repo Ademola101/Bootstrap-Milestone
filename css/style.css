@@ -2,6 +2,10 @@
   color: #f72210;
 }
 
+.newsweek-font {
+  font-size: 0.7rem;
+}
+
 .about-font {
   font-size: 0.9rem;
 }
@@ -76,15 +80,16 @@ li {
   background-color: #ff1500;
   color: white;
   border: 0;
-}
-
-.login {
   font-weight: bold;
 }
 
 .date {
   display: none;
   color: white;
+}
+
+.bar-1 {
+  display: none;
 }
 
 @media (min-width: 768px) {
@@ -120,7 +125,7 @@ li {
     left: 100px;
   }
 
-  .navbar {
+  .bar-1 {
     display: block;
   }
 }
