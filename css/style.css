@@ -27,6 +27,7 @@ a > svg {
   flex-wrap: wrap;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  display: none;
 }
 
 .logo-1 {
@@ -81,13 +82,9 @@ li {
   font-weight: bold;
 }
 
-date {
+.date {
   display: none;
   color: white;
-}
-
-.navbar {
-  display: none;
 }
 
 @media (min-width: 768px) {
@@ -115,7 +112,7 @@ date {
     left: -10px;
   }
 
-  date {
+  .date {
     display: block;
   }
 
