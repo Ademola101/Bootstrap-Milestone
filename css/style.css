@@ -81,12 +81,12 @@ li {
   font-weight: bold;
 }
 
-date {
+.date {
   display: none;
   color: white;
 }
 
-.navbar {
+.bar-1 {
   display: none;
 }
 
@@ -115,7 +115,7 @@ date {
     left: -10px;
   }
 
-  date {
+  .date {
     display: block;
   }
 
@@ -123,7 +123,7 @@ date {
     left: 100px;
   }
 
-  .navbar {
+  .bar-1 {
     display: block;
   }
 }
