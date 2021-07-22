@@ -148,4 +148,8 @@ li {
   .bar-1 {
     display: block;
   }
+
+  .search {
+    width: 10%;
+  }
 }
