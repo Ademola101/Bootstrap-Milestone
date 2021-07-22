@@ -69,3 +69,54 @@ a > svg {
 li {
   font-weight: bold;
 }
+
+.pelcro-login-button {
+  display: none;
+  background-color: #ff1500;
+  color: white;
+  border: 0;
+}
+
+.login {
+  font-weight: bold;
+}
+
+date {
+  display: none;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .pelcro-login-button {
+    display: block;
+    left: 210px;
+  }
+
+  .btn {
+    left: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-toggler {
+    display: none;
+  }
+
+  .pelcro-login-button {
+    left: 220px;
+  }
+
+  .btn {
+    position: relative;
+    left: -10px;
+  }
+
+  date {
+    display: block;
+  }
+
+  .header-logo {
+    left: 100px;
+  }
+ 
+}
