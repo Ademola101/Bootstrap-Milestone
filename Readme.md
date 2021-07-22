@@ -1,7 +1,7 @@
 # Replica of the archive version of Newsweek website
 > A replica of archive version of [Newsweek](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) 
 
-![screenshot](https://user-images.githubusercontent.com/84777739/126615898-7121701d-6208-47b4-8380-5ea364923a52.jpg) )
+![screenshot](https://user-images.githubusercontent.com/84777739/126615898-7121701d-6208-47b4-8380-5ea364923a52.jpg) (https://user-images.githubusercontent.com/84777739/126616046-a74918f1-a4c1-4944-901c-884bff061e7e.jpg)
 
 ## Built With 
 HTML <br> CSS <br> Bootstrap
