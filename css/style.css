@@ -97,6 +97,15 @@ li {
   display: none;
 }
 
+.joe {
+  font-family:'Roboto Condensed', sans-serif;
+}
+
+.turn {
+  width: 175px;
+ 
+}
+
 @media (max-width: 374px) {
   .user {
     left: -10px;
