@@ -165,10 +165,51 @@ li {
   .search {
     width: 10%;
   }
-
-	.lead {
-    width: 10%;
-		border-bottom: 4px solid #d9d9d9;
-	}
 }
 
+.seperate {
+  position: relative;
+}
+
+.seperate::before,
+.seperate::after
+{
+	content: "";
+    display: block;
+    background-color: #d9d9d9;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.debate {
+	font: bold 17px/21px "Roboto Condensed",sans-serif;
+}
+
+.debate-mainline {
+  border-bottom: 4px solid #d9d9d9;
+}
+
+.debate-subline {
+  border-bottom: 1px solid #ddd;
+}
+
+.separator {
+	position: relative;
+	z-index: 1;
+	width: 32px;
+	height: 32px;
+	background-color: #000;
+	color: #d6d6d6;
+	border-radius: 50%;
+	font: bold 14px/32px "Roboto Condensed",sans-serif;
+	text-align: center;
+	margin: 6px auto;
+}
+
+.redunder:hover {
+  text-decoration: underline red;
+	color: #000;
+	cursor: pointer;
+}
