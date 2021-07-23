@@ -99,7 +99,10 @@ li {
 
 .turn {
   width: 175px;
- 
+}
+
+.more {
+  width: 100px;
 }
 
 @media (max-width: 374px) {
