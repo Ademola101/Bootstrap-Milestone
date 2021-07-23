@@ -10,6 +10,12 @@
   font-size: 0.9rem;
 }
 
+.scrollspy-example-2 {
+  position: relative;
+  height: 350px;
+  overflow: auto;
+}
+
 .about-font-family {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -103,7 +109,10 @@ li {
 
 .turn {
   width: 175px;
- 
+}
+
+.more {
+  width: 100px;
 }
 
 @media (max-width: 374px) {
@@ -112,7 +121,7 @@ li {
   }
 
   .btn {
-    left: -30px;
+    left: -10px;
   }
 
   .navbar {
@@ -121,7 +130,7 @@ li {
 
   .navbar-toggler {
     position: relative;
-    right: 65px;
+    right: 20px;
   }
 }
 
