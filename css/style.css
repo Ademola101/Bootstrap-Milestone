@@ -97,13 +97,25 @@ li {
   display: none;
 }
 
+.joe {
+  font-family:'Roboto Condensed', sans-serif;
+}
+
+.turn {
+  width: 175px;
+}
+
+.more {
+  width: 100px;
+}
+
 @media (max-width: 374px) {
   .user {
     left: -10px;
   }
 
   .btn {
-    left: -30px;
+    left: -10px;
   }
 
   .navbar {
@@ -112,7 +124,7 @@ li {
 
   .navbar-toggler {
     position: relative;
-    right: 65px;
+    right: 20px;
   }
 }
 
