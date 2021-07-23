@@ -1,10 +1,10 @@
 # Replica of the archive version of Newsweek website
 > A replica of archive version of [Newsweek](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) 
 
-![screenshot]()
+![screenshot](https://user-images.githubusercontent.com/84777739/126615898-7121701d-6208-47b4-8380-5ea364923a52.jpg) 
 
 ## Built With 
-HTML <br> CSS
+HTML <br> CSS <br> Bootstrap
 
 ## Live Demo
 
@@ -34,7 +34,7 @@ HTML <br> CSS
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Ademola101/Bootsrao-Milestone/issues).
+Feel free to check the [issues page](https://github.com/Ademola101/Bootstrap-Milestone/issues).
 
 ## Show your support
 
