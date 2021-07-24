@@ -65,6 +65,10 @@ a > svg {
   left: 15px;
 }
 
+.navbar {
+  width: 103%;
+}
+
 .navbar-toggler-icon {
   fill: white;
   padding: 0.25rem 0.5rem;
@@ -116,7 +120,7 @@ li {
   }
 
   .navbar {
-    width: 120%;
+    width: 122%;
   }
 
   .navbar-toggler {
@@ -128,7 +132,7 @@ li {
 @media (min-width: 768px) {
   .pelcro-login-button {
     display: block;
-    left: 240px;
+    left: 235px;
   }
 
   .btn {
@@ -142,7 +146,7 @@ li {
   }
 
   .pelcro-login-button {
-    left: 220px;
+    left: 210px;
   }
 
   .btn {
