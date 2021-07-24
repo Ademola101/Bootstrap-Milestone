@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 .color-orange {
   color: #f72210;
 }
@@ -206,7 +209,23 @@ li {
 }
 
 .redunder:hover {
-  text-decoration: underline red;
+  text-decoration: underline #ff1500;
 	color: #000;
 	cursor: pointer;
+}
+
+.bgcolor {
+	background: #ff1500;
+}
+
+.logo-email {
+	display: inline-block;
+	width: 29px;
+	height: 28px;
+	margin-left: 13px;
+	background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+.Sp-insight {
+	color: #3581f4;
+  background: rgba(255,255,255,.9);
 }
