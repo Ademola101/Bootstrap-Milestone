@@ -175,7 +175,7 @@ li {
 
 .seperate::before,
 .seperate::after {
-	content: "";
+  content: "";
   display: block;
   background-color: #d9d9d9;
   height: 1px;
