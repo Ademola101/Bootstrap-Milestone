@@ -194,21 +194,21 @@ li {
 
 .separator {
   position: relative;
-	z-index: 1;
-	width: 32px;
-	height: 32px;
-	background-color: #000;
-	color: #d6d6d6;
-	border-radius: 50%;
-	font: bold 14px/32px "Roboto Condensed", sans-serif;
-	text-align: center;
-	margin: 6px auto;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 6px auto;
 }
 
 .redunder:hover {
   text-decoration: underline #ff1500;
-	color: #000;
-	cursor: pointer;
+  color: #000;
+  cursor: pointer;
 }
 
 .bgcolor {
@@ -216,11 +216,11 @@ li {
 }
 
 .logo-email {
-	display: inline-block;
-	width: 29px;
-	height: 28px;
-	margin-left: 13px;
-	background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  display: inline-block;
+  width: 29px;
+  height: 28px;
+  margin-left: 13px;
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
 }
 
 .Sp-insight {
