@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
 }
+
 .color-orange {
   color: #f72210;
 }
@@ -24,7 +25,7 @@ body {
 }
 
 .font-roboto {
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 a > svg {
@@ -45,6 +46,7 @@ a > svg {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   display: none;
+  width: 100%;
 }
 
 .logo-1 {
@@ -63,10 +65,6 @@ a > svg {
   border-radius: 22px;
   padding: 2px;
   left: 15px;
-}
-
-.navbar {
-  width: 100%;
 }
 
 .navbar-toggler-icon {
@@ -151,7 +149,7 @@ li {
 
   .btn {
     position: relative;
-    left: -10px;
+    left: 10px;
   }
 
   .date {
@@ -176,19 +174,14 @@ li {
 }
 
 .seperate::before,
-.seperate::after
-{
-	content: "";
-    display: block;
-    background-color: #d9d9d9;
-    height: 1px;
-    position: absolute;
-    left: 0;
-    right: 0;
-}
-
-.debate {
-	font: bold 17px/21px "Roboto Condensed",sans-serif;
+.seperate::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 .debate-mainline {
@@ -200,14 +193,14 @@ li {
 }
 
 .separator {
-	position: relative;
+  position: relative;
 	z-index: 1;
 	width: 32px;
 	height: 32px;
 	background-color: #000;
 	color: #d6d6d6;
 	border-radius: 50%;
-	font: bold 14px/32px "Roboto Condensed",sans-serif;
+	font: bold 14px/32px "Roboto Condensed", sans-serif;
 	text-align: center;
 	margin: 6px auto;
 }
@@ -229,7 +222,8 @@ li {
 	margin-left: 13px;
 	background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
 }
+
 .Sp-insight {
-	color: #3581f4;
-  background: rgba(255,255,255,.9);
+  color: #3581f4;
+  background: rgba(255, 255, 255, 0.9);
 }
