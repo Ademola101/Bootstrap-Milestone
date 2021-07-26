@@ -241,3 +241,15 @@ li {
     bottom: 120px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .body-overflow {
+    overflow-x: hidden;
+    margin-left: 0;
+  }
+
+  html {
+    overflow-x: hidden;
+    margin-left: 0;
+  }
+}
