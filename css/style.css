@@ -110,11 +110,11 @@ li {
 
 @media (max-width: 374px) {
   .user {
-    left: -10px;
+    left: -15px;
   }
 
   .btn {
-    left: -10px;
+    left: -17px;
   }
 
   .navbar {
@@ -123,7 +123,7 @@ li {
 
   .navbar-toggler {
     position: relative;
-    right: 20px;
+    right: 30px;
   }
 }
 
