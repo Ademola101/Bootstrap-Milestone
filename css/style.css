@@ -227,3 +227,18 @@ li {
   color: #3581f4;
   background: rgba(255, 255, 255, 0.9);
 }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .center-in {
+    width: 50%;
+    margin: 20% auto;
+  }
+
+  .your-day {
+    width: 48%;
+    margin: auto;
+    position: relative;
+    bottom: 120px;
+  }
+  
+}
