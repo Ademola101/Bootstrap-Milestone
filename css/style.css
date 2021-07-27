@@ -162,6 +162,10 @@ li {
     left: 10px;
   }
 
+  .newslt {
+    width: 50%;
+  }
+
   .date {
     display: block;
   }
@@ -271,7 +275,7 @@ li {
   background: rgba(255, 255, 255, 0.9);
 }
 
-.cover {
+.cover-pic {
   left: 140px;
   margin-top: 20px;
 }
@@ -288,6 +292,10 @@ li {
   .center-in {
     width: 50%;
     margin: 20% auto;
+  }
+
+  .title {
+    padding-left: 50px;
   }
 
   .your-day {
