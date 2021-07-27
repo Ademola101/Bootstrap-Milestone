@@ -240,12 +240,12 @@ li {
   background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
 }
 
-.img-cover {
+.first-cover {
   background: #f72210;
 	font: bold 16px/26px "Roboto Condensed",sans-serif;
 }
 
-.img-cover-text {
+.first-cover-text {
 	font: bold 16px/26px "Roboto Condensed",sans-serif;
   color: #f72210;
 }
