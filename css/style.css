@@ -237,6 +237,39 @@ li {
   background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
 }
 
+.logo-mag {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.img-cover {
+  background: #f72210;
+	font: bold 16px/26px "Roboto Condensed",sans-serif;
+}
+
+.img-cover-text {
+	font: bold 16px/26px "Roboto Condensed",sans-serif;
+  color: #f72210;
+}
+
+.buttonfeature {
+  background: #f4f5f6;
+}
+
+.buttonfeature:hover {
+  background: #dbdcdd;
+}
+
+.firstover {
+  font: bold 16px/33px "Roboto Condensed",sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 0 10px;
+  background-color: rgba(255,255,255,.9);
+}
+
 .Sp-insight {
   color: #3581f4;
   background: rgba(255, 255, 255, 0.9);
