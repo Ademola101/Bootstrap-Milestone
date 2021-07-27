@@ -271,6 +271,19 @@ li {
   background: rgba(255, 255, 255, 0.9);
 }
 
+.cover {
+  left: 140px;
+  margin-top: 20px;
+}
+
+.subs {
+  background-color: red;
+}
+
+.images {
+  margin-bottom: 40px;
+}
+
 @media (min-width: 768px) and (max-width: 992px) {
   .center-in {
     width: 50%;
