@@ -162,6 +162,10 @@ li {
     left: 10px;
   }
 
+  .card {
+    width: 50%;
+  }
+
   .date {
     display: block;
   }
@@ -255,6 +259,10 @@ li {
   .center-in {
     width: 50%;
     margin: 20% auto;
+  }
+
+  .title {
+    padding-left: 50px;
   }
 
   .your-day {
