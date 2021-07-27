@@ -83,6 +83,11 @@ a > svg {
   box-shadow: 0 0 0 0;
 }
 
+.sub {
+  height: 23vw;
+  padding: 30px;
+}
+
 .user {
   left: 15px;
 }
