@@ -243,6 +243,10 @@ li {
   margin-top: 20px;
 }
 
+.subs {
+  background-color: red;
+}
+
 .images {
   margin-bottom: 40px;
 }
