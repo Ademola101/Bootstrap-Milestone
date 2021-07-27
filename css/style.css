@@ -239,13 +239,12 @@ li {
 }
 
 .cover {
-  left: 165px;
+  left: 140px;
   margin-top: 20px;
 }
 
 .images {
   margin-bottom: 40px;
-  padding-left: 40px;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
