@@ -113,6 +113,14 @@ li {
   display: none;
 }
 
+.center {
+  text-align: center;
+}
+
+.pelcro-subscribe-button {
+  left: 75px;
+}
+
 @media (max-width: 374px) {
   .user {
     left: -15px;
@@ -146,6 +154,14 @@ li {
   .btn {
     left: 120px;
   }
+
+  .center {
+    text-align: left;
+  }
+
+  .pelcro-subscribe-button {
+    left: -1px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -164,6 +180,20 @@ li {
 
   .newslt {
     width: 50%;
+  }
+
+ .center {
+    text-align: left;
+  }
+
+ .free-signup {
+   flex-direction: column;
+   position: relative;
+   top: 100px;
+  }
+
+  .free {
+    margin-top: 5px;
   }
 
   .date {
@@ -229,6 +259,10 @@ li {
   background: #ff1500;
 }
 
+.btncolor {
+  background-color: #ff1500;
+}
+
 .logo-email {
   display: inline-block;
   width: 29px;
@@ -286,10 +320,6 @@ li {
 
 .subs {
   background-color: red;
-}
-
-.images {
-  margin-bottom: 40px;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
