@@ -182,14 +182,14 @@ li {
     width: 50%;
   }
 
- .center {
+  .center {
     text-align: left;
   }
 
- .free-signup {
-   flex-direction: column;
-   position: relative;
-   top: 100px;
+  .free-signup {
+    flex-direction: column;
+    position: relative;
+    top: 100px;
   }
 
   .free {
