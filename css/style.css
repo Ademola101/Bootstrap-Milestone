@@ -246,11 +246,11 @@ li {
 
 .first-cover {
   background: #f72210;
-	font: bold 16px/26px "Roboto Condensed",sans-serif;
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
 }
 
 .first-cover-text {
-	font: bold 16px/26px "Roboto Condensed",sans-serif;
+	font: bold 16px/26px "Roboto Condensed", sans-serif;
   color: #f72210;
 }
 
@@ -263,11 +263,15 @@ li {
 }
 
 .firstover {
-  font: bold 16px/33px "Roboto Condensed",sans-serif;
+  font: bold 16px/33px "Roboto Condensed", sans-serif;
   color: #f72210;
   text-transform: uppercase;
   padding: 0 10px;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.summary-text {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .Sp-insight {
