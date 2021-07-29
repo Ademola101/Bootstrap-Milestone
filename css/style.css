@@ -63,7 +63,11 @@ a > svg {
   animation-iteration-count: initial;
 }
 
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@keyframes spin { 
+  100% {
+  transform: rotate(360deg); 
+} 
+}
 
 .btn {
   background-color: #ffae00;
@@ -126,9 +130,12 @@ li {
   left: 75px;
 }
 
-/*sheddy's animation*/
-.form-submit:hover, .pelcro-subscribe-button:hover, .btn:hover, .pelcro-login-button:hover {
-  transform: scale(1.1) perspective(1px)
+/* sheddy's animation */
+.form-submit:hover, 
+.pelcro-subscribe-button:hover, 
+.btn:hover, 
+.pelcro-login-button:hover {
+  transform: scale(1.1) perspective(1px);
 }
 
 a.hover {
@@ -142,7 +149,7 @@ a.hover {
 a.hover:hover,
 a.hover:focus {
   color: white;
-  background-color:  rgb(179, 171, 171);
+  background-color: rgb(179, 171, 171);
 }
 
 .boom:hover {
