@@ -65,8 +65,9 @@ a > svg {
 
 @keyframes spin { 
   100% {
-  transform: rotate(360deg); 
-} 
+    transform: rotate(360deg);
+  } 
+
 }
 
 .btn {
@@ -131,9 +132,9 @@ li {
 }
 
 /* sheddy's animation */
-.form-submit:hover, 
-.pelcro-subscribe-button:hover, 
-.btn:hover, 
+.form-submit:hover,
+.pelcro-subscribe-button:hover,
+.btn:hover,
 .pelcro-login-button:hover {
   transform: scale(1.1) perspective(1px);
 }
