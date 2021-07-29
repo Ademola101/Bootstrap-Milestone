@@ -83,6 +83,11 @@ a > svg {
   box-shadow: 0 0 0 0;
 }
 
+.sub {
+  height: 23vw;
+  padding: 30px;
+}
+
 .user {
   left: 15px;
 }
@@ -108,6 +113,14 @@ li {
   display: none;
 }
 
+.center {
+  text-align: center;
+}
+
+.pelcro-subscribe-button {
+  left: 75px;
+}
+
 @media (max-width: 374px) {
   .user {
     left: -15px;
@@ -128,6 +141,11 @@ li {
 }
 
 @media (min-width: 768px) {
+  .side-margin {
+    width: 70%;
+    margin: auto;
+  }
+
   .pelcro-login-button {
     display: block;
     left: 235px;
@@ -135,6 +153,14 @@ li {
 
   .btn {
     left: 120px;
+  }
+
+  .center {
+    text-align: left;
+  }
+
+  .pelcro-subscribe-button {
+    left: -1px;
   }
 }
 
@@ -150,6 +176,24 @@ li {
   .btn {
     position: relative;
     left: 10px;
+  }
+
+  .newslt {
+    width: 50%;
+  }
+
+  .center {
+    text-align: left;
+  }
+
+  .free-signup {
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+  }
+
+  .free {
+    margin-top: 5px;
   }
 
   .date {
@@ -215,6 +259,10 @@ li {
   background: #ff1500;
 }
 
+.btncolor {
+  background-color: #ff1500;
+}
+
 .logo-email {
   display: inline-block;
   width: 29px;
@@ -223,15 +271,65 @@ li {
   background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
 }
 
+.logo-mag {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.first-cover {
+  background: #f72210;
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+}
+
+.first-cover-text {
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  color: #f72210;
+}
+
+.buttonfeature {
+  background: #f4f5f6;
+}
+
+.buttonfeature:hover {
+  background: #dbdcdd;
+}
+
+.firstover {
+  font: bold 16px/33px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 0 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.summary-text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .Sp-insight {
   color: #3581f4;
   background: rgba(255, 255, 255, 0.9);
+}
+
+.cover {
+  left: 140px;
+  margin-top: 20px;
+}
+
+.subs {
+  background-color: red;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
   .center-in {
     width: 50%;
     margin: 20% auto;
+  }
+
+  .title {
+    padding-left: 50px;
   }
 
   .your-day {
