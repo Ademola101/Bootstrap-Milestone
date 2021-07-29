@@ -385,20 +385,20 @@ li {
 
 @-webkit-keyframes sk-bounce {
   0%,
-  100% { -webkit-transform: scale(0.0); }
-  50% { -webkit-transform: scale(1.0); }
+  100% { -webkit-transform: scale(1); }
+  50% { -webkit-transform: scale(2); }
 }
 
 @keyframes sk-bounce {
   0%,
   100% {
-    transform: scale(0.0);
-    -webkit-transform: scale(0.0);
+    transform: scale(1);
+    -webkit-transform: scale(2);
   }
 
-	50% {
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
   }
 }
 
@@ -442,8 +442,9 @@ li {
 @-webkit-keyframes sk-stretchdelay {
   0%,
   40%,
-  100% { -webkit-transform: scaleY(0.4); }  
-  20% { -webkit-transform: scaleY(1.0); }
+  100% { -webkit-transform: scaleY(0.4); }
+
+  20% { -webkit-transform: scaleY(1); }
 }
 
 @keyframes sk-stretchdelay {
@@ -455,8 +456,8 @@ li {
   }
 
   20% {
-    transform: scaleY(1.0);
-    -webkit-transform: scaleY(1.0);
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
   }
 }
 
@@ -485,10 +486,10 @@ li {
 }
 
 @-webkit-keyframes sk-cubemove {
-  25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5) }
-  50% { -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg) }
-  75% { -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5) }
-  100% { -webkit-transform: rotate(-360deg) }
+  25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5); }
+  50% { -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg); }
+  75% { -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5); }
+  100% { -webkit-transform: rotate(-360deg); }
 }
 
 @keyframes sk-cubemove {
@@ -507,12 +508,12 @@ li {
     -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
   }
 
-  75% { 
-    transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
-    -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+  75% {
+    transform: translateX(1px) translateY(42px) rotate(-270deg) scale(0.5);
+    -webkit-transform: translateX(1px) translateY(42px) rotate(-270deg) scale(0.5);
   }
 
-  100% { 
+  100% {
     transform: rotate(-360deg);
     -webkit-transform: rotate(-360deg);
   }
