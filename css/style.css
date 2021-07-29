@@ -2,6 +2,18 @@ body {
   overflow-x: hidden;
 }
 
+.free-animation {
+  animation: free 10s ease-in-out 0s alternate infinite;
+}
+
+@keyframes free {
+  0% {
+    transform: rotate(-8deg);
+  }
+  100% {
+    transform: rotate(8deg);
+  }
+}
 .color-orange {
   color: #f72210;
 }
