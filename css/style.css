@@ -58,6 +58,15 @@ a > svg {
   fill: white;
   max-width: 150px;
   padding-left: 10px;
+  animation-name: spin;
+  animation-duration: 4s;
+  animation-iteration-count: initial;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .btn {
@@ -119,6 +128,32 @@ li {
 
 .pelcro-subscribe-button {
   left: 75px;
+}
+
+/* sheddy's animation */
+.form-submit:hover,
+.pelcro-subscribe-button:hover,
+.btn:hover,
+.pelcro-login-button:hover {
+  transform: scale(1.1) perspective(1px);
+}
+
+a.hover {
+  outline: 0;
+  text-decoration: none;
+  transition-property: color, background-color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+a.hover:hover,
+a.hover:focus {
+  color: white;
+  background-color: rgb(179, 171, 171);
+}
+
+.boom:hover {
+  transform: scale(1.1);
 }
 
 @media (max-width: 374px) {
