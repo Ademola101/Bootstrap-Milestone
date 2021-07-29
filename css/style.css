@@ -488,7 +488,7 @@ li {
 @-webkit-keyframes sk-cubemove {
   25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5); }
   50% { -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg); }
-  75% { -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5); }
+  75% { -webkit-transform: translateX(1px) translateY(42px) rotate(-270deg) scale(0.5); }
   100% { -webkit-transform: rotate(-360deg); }
 }
 
